@@ -13,7 +13,7 @@
         "type": "image/png"
       }
     ],
-    "start_url": ".",
+    "start_url": "chat.raigpt.site",
     "background_color": "#171717",
     "display": "standalone",
     "scope": "/",
