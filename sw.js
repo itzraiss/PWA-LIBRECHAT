@@ -11,9 +11,15 @@ self.addEventListener('install', function(event) {
       console.log('Cache aberto');
       // Lista de recursos iniciais para fazer cache
       return cache.addAll([
-        // Adicione os recursos que você sabe que precisam ser cacheados no início
-        // Exemplo: '/', '/index.html', '/styles/main.css', etc.
-      ]);
+          '/assets/index-woJS5PG.js',
+          '/assets/vendor-zawsWcY.js',
+          '/assets/index-z3skEMl.css',
+          '/assets/Inter-Bold-sYrZ_-1B.woff2',
+          '/assets/Inter-Regular-deFHWtI.woff2',
+          '/assets/Inter-SemiBold-PyS8DO2L.woff2',
+          '/assets/bingai-jb.png'
+          // Adicione aqui os caminhos dos outros arquivos que você deseja fazer cache
+        ]);
     })
   );
 });
